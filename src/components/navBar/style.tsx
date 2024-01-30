@@ -9,14 +9,14 @@ export const StyledNavBar = styled.header`
   padding-right: 60px;
   background-color: #232949;
   border-radius: 0px 0px 128.44px 128.44px;
-  height: 100px;
+  height: 80px;
   border: solid 2px #dbff00;
   border-top: none;
   width: 100vw;
 
   .image-logo {
     position: absolute;
-    top: -80px;
+    top: -100px;
     left: 50%;
     transform: translateX(-50%);
     width: 150px;
