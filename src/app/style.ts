@@ -6,6 +6,7 @@ export const StyledDiv = styled.main`
   font-size: 18px;
   // background-image: url(/_next/static/media/bg.9ff8cd10.svg);
   background-image: url(${bg.src});
+  background-size: cover;
   width: 100vw;
   height: 100vh;
 
