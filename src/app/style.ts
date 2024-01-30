@@ -1,7 +1,7 @@
 import { styled } from "styled-components";
 import bg from "../../public/bg.svg";
 
-export const StyledDiv = styled.main`
+export const StyledDiv = styled.div`
   color: red;
   font-size: 18px;
   // background-image: url(/_next/static/media/bg.9ff8cd10.svg);
