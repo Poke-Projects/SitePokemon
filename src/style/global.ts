@@ -1,4 +1,7 @@
-:root {
+import { createGlobalStyle } from "styled-components";
+
+export const GlobalStyle = createGlobalStyle`
+    :root {
   --max-width: 1100px;
   --border-radius: 12px;
   --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
@@ -105,3 +108,5 @@ a {
     color-scheme: dark;
   }
 }
+
+`;
