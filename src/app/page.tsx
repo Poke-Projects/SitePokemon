@@ -1,10 +1,15 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+"use client";
+
+import { GlobalStyle } from "@/style/global";
+import { StyledDiv } from "./style";
 
 export default function Home() {
   return (
-    <main className={styles.main}>
+    <>
+      <GlobalStyle />
+      <StyledDiv>
         <h1>Pokemon</h1>
-    </main>
+      </StyledDiv>
+    </>
   );
 }
