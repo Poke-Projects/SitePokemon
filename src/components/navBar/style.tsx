@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const StyledNavBar = styled.header`
-  position: relative;
+  position: absolute;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -12,6 +12,7 @@ export const StyledNavBar = styled.header`
   height: 100px;
   border: solid 2px #dbff00;
   border-top: none;
+  width: 100vw;
 
   .image-logo {
     position: absolute;
