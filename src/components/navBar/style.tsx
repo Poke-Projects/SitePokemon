@@ -3,17 +3,19 @@ import styled from "styled-components";
 export const StyledNavBar = styled.header`
   position: relative;
   display: flex;
+  align-items: center;
   justify-content: space-between;
-  padding: 50px;
+  padding-left: 60px;
+  padding-right: 60px;
   background-color: #232949;
   border-radius: 0px 0px 128.44px 128.44px;
-  height: 122px;
+  height: 100px;
   border: solid 2px #dbff00;
   border-top: none;
 
   .image-logo {
     position: absolute;
-    top: -50px;
+    top: -80px;
     left: 50%;
     transform: translateX(-50%);
     width: 150px;
@@ -22,15 +24,18 @@ export const StyledNavBar = styled.header`
   div {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 4px;
+    width: max-content;
     .image-login {
-      width: 26px;
+      width: 20px;
+      cursor: pointer;
     }
     button {
       background-color: none;
       border: none;
       font-size: 26px;
       background-color: #232949;
+      cursor: pointer;
     }
   }
 `;
