@@ -12,17 +12,17 @@ export default function Home() {
     <>
       <GlobalStyle />
       <StyledDiv>
-        <h1>Pokemon</h1>
-
-        <a href="">
-          <Image src={teambuilder} alt="" />
-        </a>
-        <a href="">
-          <Image src={map} alt="" />
-        </a>
-        <a href="">
-          <Image src={battlesimulator} alt="" />
-        </a>
+        <div className="buttons">
+          <a href="">
+            <Image src={teambuilder} alt="" />
+          </a>
+          <a href="">
+            <Image src={map} alt="" />
+          </a>
+          <a href="">
+            <Image src={battlesimulator} alt="" />
+          </a>
+        </div>
       </StyledDiv>
     </>
   );
